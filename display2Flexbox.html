@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            background: maroon;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+
+        }
+        .item{
+            width: 45px;
+            height: 40px;
+            background: magenta;
+        }
+
+        .container .item:nth-child(2n+1){
+background: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>        
+    </div>
+</body>
+</html>
